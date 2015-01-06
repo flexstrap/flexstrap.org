@@ -1,0 +1,64 @@
+.container-demo-grid
+
+  .row
+    margin-bottom 15px
+    margin-top 15px
+
+    &.row-demo-header, h2, h3
+      margin-bottom 0
+
+      + p
+        margin-top 10px
+
+      h3
+        margin-top 0
+
+    &.row-demo-header + .row-demo-sub-header
+
+      h3
+        margin-top 0
+
+    &.row-demo-grid
+      text-align left
+
+      [class^="col-"]
+        background-color darken(#fff, 5%)
+        border-left 15px solid #fff
+        padding 8px 10px
+
+      &.row-demo-grid-numbers
+        text-align center
+
+       .font-size-24
+         font-size 24px
+
+       .font-size-32
+         font-size 32px
+
+    &.row-demo-align-content
+      background-color darken(#fff, 10%)
+      height 300px
+
+    .align-content-box
+      background-color darken(#fff, 5%)
+      border-bottom 10px solid #fff
+      border-left 15px solid #fff
+      border-top 10px solid #fff
+      height 100px
+      line-height 80px
+      text-align center
+
+    &.row-demo-align-self
+      height 300px
+
+      .align-self-baseline
+        height 36px
+
+      .align-self-center
+        height 36px
+
+      .align-self-end
+        height 36px
+
+      .align-self-start
+        height 36px

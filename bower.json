@@ -1,0 +1,28 @@
+{
+  "name": "flexstrap.org",
+  "main": "index.js",
+  "version": "0.0.0",
+  "homepage": "https://github.com/flexstrap/flexstrap.org",
+  "authors": [
+    "Chris Abrams <mail@chrisabrams.com>"
+  ],
+  "description": "Responsive, mobile-first web products using Flexbox.",
+  "keywords": [
+    "flexstrap",
+    "flexbox",
+    "stylus"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize.css": "~3.0.2",
+    "jquery": "~2.1.3"
+  }
+}
